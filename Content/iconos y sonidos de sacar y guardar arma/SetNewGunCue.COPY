@@ -1,0 +1,37 @@
+Begin Object Class=SoundCue Name="SetNewGunCue"
+   Begin Object Class=SoundCueGraph Name="SoundCueGraph_0"
+      Begin Object Class=SoundCueGraphNode Name="SoundCueGraphNode_0"
+      End Object
+      Begin Object Class=SoundCueGraphNode_Root Name="SoundCueGraphNode_Root_0"
+      End Object
+   End Object
+   Begin Object Class=SoundNodeWavePlayer Name="SoundNodeWavePlayer_0"
+   End Object
+   Begin Object Name="SoundCueGraph_0"
+      Begin Object Name="SoundCueGraphNode_0"
+         SoundNode=SoundNodeWavePlayer'SetNewGunCue:SoundNodeWavePlayer_0'
+         NodePosX=-349
+         NodePosY=48
+         NodeGuid=818F94B646A3FD55B26540BACC3D9366
+         CustomProperties Pin (PinId=6C55DB92465B4FDC3AFD70AB7E13591D,PinName="Output",Direction="EGPD_Output",PinType.PinCategory="SoundNode",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.bIsMap=False,PinType.bIsSet=False,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(SoundCueGraphNode_Root_0 B6D641034C2FA054D108BA9A81C2E6B5,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+      End Object
+      Begin Object Name="SoundCueGraphNode_Root_0"
+         NodePosY=-58
+         NodeGuid=623827754AB7C2117114B19168C8A047
+         CustomProperties Pin (PinId=B6D641034C2FA054D108BA9A81C2E6B5,PinType.PinCategory="SoundNode",PinType.PinSubCategory="Root",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.bIsMap=False,PinType.bIsSet=False,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(SoundCueGraphNode_0 6C55DB92465B4FDC3AFD70AB7E13591D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,)
+      End Object
+      Schema=Class'/Script/AudioEditor.SoundCueGraphSchema'
+      Nodes(0)=SoundCueGraphNode_Root'SoundCueGraphNode_Root_0'
+      Nodes(1)=SoundCueGraphNode'SoundCueGraphNode_0'
+      bAllowDeletion=False
+      GraphGuid=7595557E48B0A5DACBDA318E5031A091
+   End Object
+   Begin Object Name="SoundNodeWavePlayer_0"
+      SoundWaveAssetPtr=/Game/MP_FPS/Sounds/SetNewGun.SetNewGun
+      GraphNode=SoundCueGraphNode'SetNewGunCue:SoundCueGraph_0.SoundCueGraphNode_0'
+   End Object
+   FirstNode=SoundNodeWavePlayer'SoundNodeWavePlayer_0'
+   AllNodes(0)=SoundNodeWavePlayer'SoundNodeWavePlayer_0'
+   SoundCueGraph=SoundCueGraph'SoundCueGraph_0'
+   Duration=1.152000
+End Object
